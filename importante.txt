@@ -3,3 +3,6 @@
 
 2 - instalado o eslint: npm init @eslint/config
   - ou: npx eslint --init
+
+3 - instalando a biblioteca Material UI: npm install @mui/material @emotion/react @emotion/styled
+  - https://mui.com/material-ui/getting-started/installation/
