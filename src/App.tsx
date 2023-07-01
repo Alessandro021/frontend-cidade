@@ -1,12 +1,11 @@
-import { ThemeProvider } from "@mui/material";
 import { AppRoutes } from "./routes";
-import { LightTheme } from "./shared/themes";
+import { AppThemeProvider } from "./shared/contexts/ThemeContext";
+
 export function App() {
 
     return (
-        <ThemeProvider theme={LightTheme}>
+        <AppThemeProvider>
             <AppRoutes />
-        </ThemeProvider>
-
+        </AppThemeProvider>
     );
 }
