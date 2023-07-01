@@ -1,0 +1,5 @@
+1 - intalando o react-router-dom: npm i react-router-dom localforage match-sorter sort-by
+  - https://reactrouter.com/en/main/start/tutorial
+
+2 - instalado o eslint: npm init @eslint/config
+  - ou: npx eslint --init
